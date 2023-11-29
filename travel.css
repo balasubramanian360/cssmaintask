@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Abstract-Website-Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+}
+body:hover {
+    opacity: 1.0;
+  }
+.headall {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.imgg {
+    height: 40px;
+    width: 40px;
+    border-radius: 34px;
+    margin-left: 195px;
+    opacity: .8;
+    cursor: pointer;
+}
+.menu {
+    margin-left: 180px;
+}
+.mitem {
+    display: inline-block;
+    margin-left: 27px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.btn {
+    margin-left: 225px;
+    padding: 9px;
+    width: 180px;
+    background-color: rgb(0 208 255);
+    color: white;
+    border-radius: 10px;
+    border-color: blanchedalmond;
+    cursor: pointer;
+}
+.bthover :hover {
+    color: rgb(0, 0, 0);
+}
+.menu a:hover {
+    color:rgb(43, 226, 43);
+} 
+.menu .mitem1 :active{
+    color: aliceblue;
+}
+.menu-line {
+    height: 3px;
+    width: 20px;
+    background-color: darkslateblue;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.three {
+    cursor: pointer;
+}
+.para {
+    margin-top: 110px;
+}
+.para p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+.para h1 {
+    text-align: center;
+    FONT-FAMILY: sans-serif;
+    color: azure;
+    text-shadow:0 3px 5px red ;
+    font-weight: 900;
+    font-size: 40px;
+}
+.para h3 {
+    text-align: center;
+    color: rgb(250, 128, 128);
+}
+.booton {
+    margin-left: 545px;
+}
+.para .booton .bt2 {
+    margin-left: 30px;
+    box-shadow: 2px 0 10px rgb(243, 239, 11) ;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    padding: 8px 17px 8px 20px;
+    border-color: ivory;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.para .booton .bt1 {
+    box-shadow: 2px 0 10px rgb(243, 239, 11) ;
+    color: rgb(5, 21, 241);
+    background-color:#ebe413;
+    padding: 8px 17px 8px 20px;
+    border-color: ivory;
+    border-radius: 12px;
+    cursor: pointer;
+} 
